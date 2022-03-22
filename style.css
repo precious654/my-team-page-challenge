@@ -107,3 +107,11 @@ body{
 .title-2 p{
   font-size: 12px;
 }
+
+.footer{
+  font-size: 12px;
+  color: #A9A9A9;
+  font-family: 'Montserrat', sans-serif;
+  margin-block-start: 70px;
+  text-align: center;
+}
