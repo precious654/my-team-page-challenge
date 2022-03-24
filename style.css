@@ -13,8 +13,7 @@
 
   .container-2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 4em;
+    grid-template-columns: repeat(6, 1fr);
     margin-block-start: 40px;
     padding-inline-end: 350px;
     padding-inline-start: 350px;
@@ -39,14 +38,21 @@
     margin-inline-start: 310px;
   }
 
+  .role-2{
+    padding-inline-start: 70px;
+  }
+
+  .role-5{
+      padding-inline-start: 70px;
+  }
+
 }
 
 @media (max-width: 919px) {
 
   .container-2{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
     margin: 20px 15px;
   }
 
@@ -68,6 +74,18 @@
 
   .title{
     margin-block-end: 20px;
+  }
+
+  .role-2{
+    padding-inline-start: 70px;
+  }
+
+  .role-4{
+    padding-inline-start: 70px;
+  }
+
+  .role-6{
+    padding-inline-start: 70px;
   }
 
 }
@@ -106,6 +124,11 @@ body{
 
 .title-2 p{
   font-size: 12px;
+}
+
+.role{
+   writing-mode: vertical-lr;
+   font-size: 10px;
 }
 
 .footer{
